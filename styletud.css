@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:30px;
+    background:#e9eef5;
+    font-family:Arial, sans-serif;
+}
+
+/* titre */
+h1, h2{
+    text-align:center;
+    color:#333;
+}
+
+/* form cadre */
+form{
+    width:500px;
+    margin:20px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+/* inputs */
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+/* buttons */
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#4da3ff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2d8cff;
+}
+
+/* liste */
+p{
+    width:500px;
+    margin:10px auto;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* links */
+p a{
+    text-decoration:none;
+    margin-left:10px;
+    color:#4da3ff;
+    font-weight:bold;
+}
+
+p a:hover{
+    color:#2d8cff;
+}
+
+/* delete red */
+p a:first-of-type{
+    color:red;
+}
